@@ -53,7 +53,7 @@ Linalg can be used as a stand-alone component to convert Triton dialect to the L
 Stand-alone example:
 
 ```
-triton-linalg-opt --triton-to-linalg ${TRITON_LINALG_DIR}/test/Dialect/LinalgExt/ops.mlir
+triton-linalg-opt --triton-to-linalg ${TRITON_PLUGIN_DIRS}/test/Dialect/LinalgExt/ops.mlir
 ```
 
 > We can not use --convert-triton-to-linalg, as it necessitates certain preprocessing passes prior to execution.
